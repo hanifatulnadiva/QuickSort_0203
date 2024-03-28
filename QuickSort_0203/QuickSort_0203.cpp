@@ -81,6 +81,20 @@ void q_short(int low, int high)
 
 }
 
+void display() {
+    cout << "\n--------------------" << endl;
+    cout << "Sorted Array" << endl;
+    cout << "\n--------------------" << endl;
+
+    for (int i = 0; i < n; i++)
+    {
+        cout << arr[i] << " ";
+    }
+
+    cout << "\n\Number of coparasions: " << cmp_count << endl;
+    cout << "number of data movements: " << mov_count << endl;
+}
+
 int main()
 {
     std::cout << "Hello World!\n";

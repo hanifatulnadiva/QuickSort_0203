@@ -38,6 +38,13 @@ void swap(int x, int y)
     mov_cout++;
 }
 
+void q_short(int low, int high)
+{
+    int temp;
+    int pivot, i, j;
+    
+}
+
 int main()
 {
     std::cout << "Hello World!\n";

@@ -91,12 +91,20 @@ void display() {
         cout << arr[i] << " ";
     }
 
-    cout << "\n\Number of coparasions: " << cmp_count << endl;
+    cout << "\n\nNumber of coparasions: " << cmp_count << endl;
     cout << "number of data movements: " << mov_count << endl;
 }
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    char ch;
+
+    do {
+        input();
+        q_short(0, n - 1);
+        display();
+        
+
+    }
 }
 

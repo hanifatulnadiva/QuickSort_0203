@@ -5,8 +5,8 @@
 using namespace std;
 
 int arr[20];
-int cmp_cout = 0;
-int mov_cout = 0;
+int cmp_count = 0;
+int mov_count = 0;
 int n;
 
 void input() {
@@ -35,7 +35,7 @@ void swap(int x, int y)
     int temp = arr[x];
     arr[x] = arr[y];
     arr[y] = temp;
-    mov_cout++;
+    mov_count++;
 }
 
 void q_short(int low, int high)
@@ -55,6 +55,7 @@ void q_short(int low, int high)
         while ((arr[i] <= pivot) && (i <= high)) //step 5
         {
             i++; //step6
+            cmp_count++;
         }
     }
 }

@@ -10,9 +10,11 @@ int mov_count = 0;
 int n;
 
 void input() {
-    while (true) {
+    while (true)
+    {
         cout << "masukan panjang element array:"; 
         cin >> n; 
+
         if (n <= 20) 
             break;
         else
@@ -23,9 +25,9 @@ void input() {
     cout << "\nEnter Array Elemen" << endl;
     cout << "\n------------------" << endl;
 
-    for (int i = 0; i < 1; i++)
+    for (int i = 0; i < n; i++)
     {
-        cout << "<" << (i + 1) << "<";
+        cout << "<" << (i + 1) << ">";
         cin >> arr[i];
     }
 }
@@ -111,6 +113,6 @@ int main()
         system("cls");
 
     } while (true);
- 
+    
 }
 

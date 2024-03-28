@@ -29,6 +29,7 @@ void input() {
         cin >> arr[i];
     }
 }
+
 int main()
 {
     std::cout << "Hello World!\n";
